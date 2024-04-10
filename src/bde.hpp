@@ -10,8 +10,10 @@ public:
     Bde();
     ~Bde();
 
-    void checkForBderc();
+    bool checkForBderc();
+    void exec();
     void allow();
+
 
     Config _config;
 };
